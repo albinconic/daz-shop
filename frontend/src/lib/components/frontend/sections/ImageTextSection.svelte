@@ -5,7 +5,7 @@
   export let section: ImageTextSection;
 </script>
 
-<section class="py-20 {section.layout === 'image-left' ? 'bg-white' : 'bg-gray-50'}">
+<section id={section.id} class="py-20 {section.layout === 'image-left' ? 'bg-white' : 'bg-gray-50'}">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
       
